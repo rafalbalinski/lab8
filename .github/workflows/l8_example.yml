@@ -47,7 +47,7 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
           tags: |
-            spg51/lab:gh_lab80
+            rafalbalinski/lab8 
 
       - name: Move cache
         run: |
