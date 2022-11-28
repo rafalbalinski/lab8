@@ -2,8 +2,8 @@ name: GitHub Action flow to Docker hub
 
 on:
 #  workflow_dispatch:
-  push:
-    branches: [main]
+#  push:
+#    branches: [main]
 
 jobs:
   build-push-images:
